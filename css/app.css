@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #051622, #1BA098, #Deb992);
+}
+
+.vanta-burung {
+    width: 100%;
+    display: block;
+    background: transparent;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 40px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    background: transparent;
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    background: linear-gradient(to right, #051622, #1BA098, #051622);
+}
+
+h2 {
+    color: #ffffff;
+    padding-top: 0px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.foto {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.foto img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.box {
+    border-radius: 30px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    display: block;
+    background: #ffffff21;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.pd {
+    padding-bottom: 30px;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width:680px) {
+    .card {
+        width: 70%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .foto {
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    h1 {
+        width: 100%;
+    }
+}
